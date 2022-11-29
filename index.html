@@ -21,20 +21,17 @@
         <a class="navbar-brand" href="#hero">Hero</a>
         <a class="navbar-brand" href="#work">Work</a>
         <a class="navbar-brand" href="#skills">Skills</a>
-        <a class="navbar-brand" href="#about-contact">About/Contact</a>
+        <a class="navbar-brand" href="#about">About</a>
         <a class="navbar-brand" href="#footer">Footer</a>
     </nav>
 
     <!-- Hero Section Bar -->
 
     <secion id="hero" class="jumbotron">
-        <h1 class="display-4">Dominic Kennell</h1>
-        <img class="mx-auto d-block img-fluid unlock-icon" src="./images/download.jpg">
-        <p class="lead">Aspring Front End Developer</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="https://github.com/DominicKennell?tab=repositories"
-                role="button">Github</a>
-        </p>
+        <article class="jumbotron-article">
+            <h1 class="display-4">Dominic Kennell</h1>
+            <img class="mx-auto d-block img-fluid unlock-icon" src="./images/download.jpg">
+        </article>
         </section>
 
         <!-- Work Section -->
@@ -92,60 +89,44 @@
         <!-- Skills -->
         <section id="skills">
             <h2>Skills</h2>
+        <section class="skills-container">
+            <article class="html">
+                <div>
+                    <div class="skill-name">HTML</div>
+                </div>
+                <div class="skill-bar">
+                    <article class="skills-per" per="75%" style="max-width:75%"></article>
+                </div>
+            </article>
+            <article class="css">
+                <div>
+                    <div class="skill-name">CSS</div>
+                </div>
+                <div class="skill-bar">
+                    <article class="skills-per" per="60%" style="max-width:60%"></article>
+                </div>
+            </article>
+            <article class="javascript">
+                <div>
+                    <div class="skill-name">JavaScript</div>
+                </div>
+                <div class="skill-bar">
+                    <article class="skills-per" per="25%" style="max-width:25%"></article>
+                </div>
+            </article>
 
-            <div class="container">
-                <!-- Skill Name Row -->
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="skill-name">HTML</div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="skill-name">CSS</div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="skill-name">JavaScript</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Skill Bar with Filled Skills -->
-                    <div class="col-sm">
-                        <div class="skill-bar">
-                            <article class="skills-per" per="75%" style="max-width:75%"></article>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="skill-bar">
-                            <article class="skills-per" per="50%" style="max-width:50%"></article>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="skill-bar">
-                            <article class="skills-per" per="10%" style="max-width:10%"></article>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <!-- About/Contact -->
-        <section id="about-contact" class="container">
-            <div class="row">
-                <div class="col-sm">
+        <section id="about" class="container">
                     <article class="about">
                         <h2>About</h2>
-                        <p>Dominic is an aspiring Front End Developer who is studying coding through a bootcamp student
-                            Trilogy Education Services.</p>
-                        <p>When he is not coding, Dominic can be found public speaking at LGBT+ events.</p>
+                        <div class="about-paragraph">
+                            <p>Dominic is an aspiring Front End Developer who is studying coding through a bootcamp student
+                                Trilogy Education Services.</p>
+                            <a href="mailto: dominic.kennell@outlook.com">dominickennell@outlook.com</a>
+                        </div>
                     </article>
-                </div>
-                <div class="col-sm">
-                    <article clas="contact">
-                        <h2>Contact</h2>
-                        <p> Email: <a href="mailto: dominic.kennell@outlook.com">Dominic.Kennell@outlook.com</a></p>
-                        <p>Phone Number: +44 7722 047 164</p>
-                    </article>
-                </div>
-            </div>
         </section>
 
         <!-- Footer -->
@@ -154,7 +135,7 @@
             <a href="#hero">Hero</a>
             <a href="#work">Work</a>
             <a href="#skills">Skills</a>
-            <a href="#about-contact">About/Contact</a>
+            <a href="#about">About</a>
         </footer>
 
         <!-- JavaScript Bundle with Popper -->
