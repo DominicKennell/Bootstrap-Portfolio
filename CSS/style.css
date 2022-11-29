@@ -2,7 +2,15 @@
 .jumbotron{
     text-align: center;
 }
+.unlock-icon{
+    border-radius: 50%;
+}
 
+/* Work */
+
+.card {
+    width: 18rem;
+}
 /* Skills */
 
 .skills{
@@ -30,3 +38,14 @@
     border-radius: 3px;
     position: relative;
 }
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+  }
+
+  .about{
+    border-style: solid;
+    border-radius: 5px;
+    border: lightslategray;
+  }
