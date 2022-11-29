@@ -1,3 +1,8 @@
+h2{
+    padding: 30px;
+    text-align: center;
+}
+
 /* jumbotron */
 .unlock-icon{
     border-radius: 50%;
@@ -10,12 +15,12 @@
     align-items: center;
 }
 
-
 /* Work */
 
 .card {
     width: 18rem;
 }
+
 
 /* Skills */
 
@@ -67,11 +72,12 @@
 
 /* Footer */
 
-footer{
+.footer{
     display: flex;
+    justify-content: space-between;
 }
 
-footer a{
+.footer a{
     color: black;
     text-decoration: none;
     justify-content: center;
@@ -79,7 +85,7 @@ footer a{
 
 }
 
-footer a:hover{
+.footer a:hover{
     box-shadow: 10px 5px 5px lightslategray;
     font-weight: 900;
     text-decoration: none;
