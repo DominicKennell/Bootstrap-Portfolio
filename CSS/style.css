@@ -39,13 +39,14 @@
     position: relative;
 }
 
-.vl {
-    border-left: 6px solid green;
-    height: 500px;
-  }
+/* Footer */
+footer a{
+    color: black;
+    text-decoration: none;
+}
 
-  .about{
-    border-style: solid;
-    border-radius: 5px;
-    border: lightslategray;
-  }
+footer a:hover{
+    box-shadow: 10px 5px 5px lightslategray;
+    font-weight: 900;
+    text-decoration: none;
+}
